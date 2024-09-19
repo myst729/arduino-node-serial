@@ -1,0 +1,19 @@
+{
+  "name": "arduino-node-serial",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Leo Deng",
+  "license": "ISC",
+  "dependencies": {
+    "@serialport/parser-readline": "^12.0.0",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "serialport": "^12.0.0"
+  }
+}
